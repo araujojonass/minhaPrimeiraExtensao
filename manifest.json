@@ -1,0 +1,20 @@
+{
+    "name": "Boticario Color",
+    "description": "Troque a cor da barra de navegação",
+    "author": "Jonas Araújo",
+    "version": "1.0",
+    "manifest_version": 3,
+    "browser_action": {
+        "defaut_title": "Boticario Lightgreen",
+        "defaut_popup": "index.html" 
+
+    },
+
+    "content_scripts": [
+        {"matches": ["https://*.boticario.com.br/*"],
+       
+         "css" : ["style.css"]
+
+        }
+    ]
+  }

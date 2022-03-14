@@ -1,0 +1,16 @@
+.header-middle{
+background-color:argb(152, 236, 208) !important ;
+}
+
+.header{
+
+    background-color: rgb(152, 236, 208) !important;
+}
+
+.js-header-link{
+    color:darkslategray !important;
+}
+
+.header-account-item{
+    color:darkslategray !important;
+}
